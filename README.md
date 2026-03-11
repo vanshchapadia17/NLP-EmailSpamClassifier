@@ -150,6 +150,7 @@ curl -X POST http://localhost:5000/api/predict-batch \
 
 - TF-IDF with unigrams and bigrams (`ngram_range=(1,2)`)
 - Top 5000 features, `sublinear_tf=True`
+- word2vec using gensim
 
 ### Models Evaluated
 
